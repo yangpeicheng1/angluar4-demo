@@ -1,0 +1,37 @@
+.count .weui-panel__hd:after{
+  left:0;
+}
+.count .date{
+  display: flex;
+  border-bottom: 1px solid #ccc;
+
+}
+.weui-panel__hd{
+  padding:18px;
+  text-align: center;
+}
+.weui-panel__hd span{
+  font-size: 14px;
+}
+.weui-panel__hd em{
+  font-size: 20px;
+  color:  #09bb07;
+  display: inherit;
+  letter-spacing: 1px;
+}
+
+
+.count .date>div{
+  flex: 1;
+  text-align: center;
+  height:36px;
+  line-height: 36px;
+  background: #ededed;
+}
+.count .date>div:first-child{
+  border-right:1px solid #ccc;
+}
+.count .date .active{
+  background: #999;
+}
+

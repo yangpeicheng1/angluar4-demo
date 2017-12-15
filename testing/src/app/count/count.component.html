@@ -1,0 +1,15 @@
+<div class="count">
+  <div class="weui-panel__hd">
+    <span>当前记账金额为：</span>
+    <em>123456</em>
+  </div>
+  <div class="date">
+    <div class="mount" routerLink="/count" (click)="setActive(1)" [ngClass]="activeIndex == 1?'active':''">月</div>
+    <div class="year" routerLink="/count/year" (click)="setActive(2)" [ngClass]="activeIndex == 2?'active':''">年</div>
+  </div>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+

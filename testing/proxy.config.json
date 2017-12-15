@@ -1,0 +1,10 @@
+{
+  "/test": {
+    "target":"http://192.168.0.245:8890",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite":{
+      "^/test": ""
+    }
+  }
+}

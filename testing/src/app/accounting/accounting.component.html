@@ -1,0 +1,29 @@
+<weui-navbar>
+  <weui-tab heading="理财从记账开始">
+    <article class="weui-article">
+      <div style="margin-top: 50px;">
+        <!-- 金额输入框 -->
+
+
+          <div class="weui-cell">
+            <div class="weui-cell__hd"><label for="" class="weui-label">￥</label></div>
+            <div class="weui-cell__bd">
+              <input class="weui-input" type="tel" value="weui input" placeholder="请输入金额"
+                     [(ngModel)]="money" name="money"
+                     weui-input="number">
+            </div>
+          </div>
+
+      </div>
+<!--
+      <div class="weui-grids" [ngStyle]="contentStyle">
+        <a href="javascript:;"  class="weui-grid" *ngFor="let b of billTypes">
+          <div class="weui-grid__icon"><img [src]="host+b.url" alt=""></div>
+          <p class="weui-grid__label">{{b.picname}}</p>
+        </a>
+      </div>
+-->
+    </article>
+
+  </weui-tab>
+</weui-navbar>

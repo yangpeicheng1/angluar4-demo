@@ -1,0 +1,28 @@
+html, body, app-root, example-tarbar, example-layout {
+  height: 100%;
+  display: block;
+}
+.weui-infiniteloader__content{
+  overflow: auto !important;
+}
+.weui-tab__panel{
+  padding: 0 !important;
+}
+.tabMenu{
+  display: flex;
+  position: fixed;
+  bottom:0;
+  z-index: 2;
+  width: 100%;
+}
+.tabMenu .tabMenuList{
+  flex: 1;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border:0;
+}
+.menu .tabMenu{
+  background: #ececec;
+  border-top:1px solid #ccc;
+}
